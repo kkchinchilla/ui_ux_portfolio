@@ -187,6 +187,15 @@ html,body {
     margin-bottom: 30px;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: relation-one, sans-serif;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
 .intro {
     font-weight: 100;
     width: 50%;
@@ -206,12 +215,13 @@ html,body {
     width: 50%;
     height: auto;
     margin: 40px;
+    margin-top: 0;
     }
     #profilepic {
     width: 30vh;
     height: auto;
     margin-top: 50px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     }
 }
 
