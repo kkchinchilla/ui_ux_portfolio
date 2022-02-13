@@ -181,9 +181,20 @@ html,body {
 }
 
 .a_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#a_title {
     width: 60vh;
     height: auto;
     margin: 60px;
+}
+
+#previous, #next {
+    width: 70px;
+    height: 70px;
 }
 
 .a__text {
@@ -248,6 +259,19 @@ html,body {
     justify-content: center;
     width: 90%;
     height: auto;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #previous, #next {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    }
+    #a_title {
+    width: 60vh;
+    height: auto;
+    margin: 10px;
     }
 }
 

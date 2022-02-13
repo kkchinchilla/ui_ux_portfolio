@@ -181,9 +181,20 @@ html,body {
 }
 
 .t5_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#t5_title {
     width: 60vh;
     height: auto;
     margin: 60px;
+}
+
+#previous, #next {
+    width: 70px;
+    height: 70px;
 }
 
 .t5__text {
@@ -201,7 +212,7 @@ html,body {
     justify-content: center;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 960px){
     .t5_title {
     width: 70%;
     height: auto;
@@ -212,6 +223,19 @@ html,body {
         justify-content: center;
         width: 80%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #previous, #next {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    }
+    #t5_title {
+    width: 60vh;
+    height: auto;
+    margin: 10px;
     }
 }
 
