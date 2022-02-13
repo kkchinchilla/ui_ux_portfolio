@@ -250,7 +250,7 @@ html,body {
 
 @media screen and (max-width: 960px){
     .a_title {
-    width: 70%;
+    width: 60%;
     height: auto;
     margin: 40px;
     }
