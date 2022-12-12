@@ -447,6 +447,7 @@ html,body {
     align-items: center;
     justify-self: center;
     margin: 0 auto;
+    margin-top: 50px;
     width: 100%;
     max-width: 1300px;
     padding: 0 20%;
